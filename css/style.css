@@ -1,0 +1,47 @@
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+input[type="file"] {
+  margin-bottom: 1.5rem;
+}
+
+canvas {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+#output {
+  font-size: 1rem;
+  color: #007b5e;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+}

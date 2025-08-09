@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pétanque App</title>
+  <script src="https://docs.opencv.org/4.x/opencv.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <h1>🏐 Pétanque App</h1>
+
+  <div class="container">
+    <input type="file" id="imageInput" accept="image/*" />
+    <canvas id="canvas"></canvas>
+    <div id="output">Veuillez sélectionner une photo prise du dessus.</div>
+  </div>
+
+  <!-- Passage à type="module" pour permettre import/export -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>
